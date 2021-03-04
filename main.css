@@ -1,0 +1,113 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+.navbar{
+    background-color: rgb(255, 102, 0);
+}
+
+.nav-link,
+.navbar-brand{
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link{
+    margin-right: 1em;
+}
+
+.nav-link :hover{
+    color: #000;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.header{
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+.feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+ .background{
+     background: #dedec8;
+     padding: 4em 0;
+ }
+
+ .team{
+     color: #5e5e55;
+     padding: 0 180px;
+ }
+
+ .team .card-columns{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+.team .card {
+    background:none;
+    border: none;
+}
+.team .card-title {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.page-footer{
+    background-color:#222 ;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+
+.footer-cpyright{
+    color: #666;
+    padding: 40px 0;
+}
+
+a{
+	color:white;
+}
+
+#clientes{
+    background: #e6e7e9;
+}
+
+#clientes .card{
+    background: none;
+    border: none;
+}
+
+#clientes .card-columns{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+#clientes, h1 {
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+}
