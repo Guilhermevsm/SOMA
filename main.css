@@ -4,6 +4,25 @@ body{
     background: #f2f6e9;
 }
 
+*{
+    font-family: Sans;
+}
+
+@font-face{
+    font-family: Print;
+    src: url(font/PRINC___.TTF);
+}
+
+@font-face{
+    font-family: Olga;
+    src: url(font/Olga.ttf);
+}
+
+@font-face{
+    font-family: Sans;
+    src: url(font/EncodeSans-Regular.ttf);
+}
+
 .navbar{
     background-color: rgb(255, 102, 0);
 }
@@ -27,10 +46,19 @@ body{
 }
 
 .header{
-    background-image: url('');
+    background-image: url(img/branco.png);
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(158, 120, 120, 0);
 }
 
 .features {
@@ -52,34 +80,27 @@ body{
     margin-bottom: 16px;
 }
  .background{
-     background: #dedec8;
+     background: #FFFF;
      padding: 4em 0;
  }
 
- .team{
+ .servicos{
      color: #5e5e55;
      padding: 0 180px;
  }
 
- .team .card-columns{
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
-}
-.team .card {
+
+.servicos .card {
     background:none;
     border: none;
 }
-.team .card-title {
-    font-size: 1.3rem;
-    margin-bottom: 0;
-    text-transform: uppercase;
-}
+
 
 .page-footer{
-    background-color:#222 ;
+    background-color:rgb(77, 77, 77) ;
     color: #ccc;
     padding: 60px 0 30px;
+    font-family: Print;
 }
 
 .footer-cpyright{
@@ -93,6 +114,14 @@ a{
 
 #clientes{
     background: #e6e7e9;
+}
+
+#nossosclientes{
+    height: 120px;
+}
+
+#nossosservicos{
+    top: 100px;
 }
 
 #clientes .card{
@@ -110,4 +139,42 @@ a{
     text-align: center;
     color: orange;
     font-weight: bold;
+    font-family: Sans;
+}
+
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+ 
+    .description h1 {
+        font-size: 2em;
+    }
+ 
+    .description p {
+        font-size: 1.2rem;
+    }
+ 
+    .features {
+        margin: 0;
+    }
+}
+
+.carousel {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }

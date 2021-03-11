@@ -1,0 +1,114 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EncodeSans-Bold
+FamilyName:Encode Sans
+StyleName:Bold
+MenuName:Encode Sans
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Encode Sans Bold
+WritingScript:Roman
+OutlineFileName:\EncodeSans-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:161844
+FileModTime:1486515600
+NameArray:0,Win,1,Encode Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EncodeSans-Light
+FamilyName:Encode Sans
+StyleName:Light
+MenuName:Encode Sans Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Encode Sans Light
+WritingScript:Roman
+OutlineFileName:\EncodeSans-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:160616
+FileModTime:1486515600
+NameArray:0,Win,1,Encode Sans Light
+NameArray:0,Win,16,Encode Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EncodeSans-Medium
+FamilyName:Encode Sans
+StyleName:Medium
+MenuName:Encode Sans Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Encode Sans Medium
+WritingScript:Roman
+OutlineFileName:\EncodeSans-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:161960
+FileModTime:1486515600
+NameArray:0,Win,1,Encode Sans Medium
+NameArray:0,Win,16,Encode Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:EncodeSans-Regular
+FamilyName:Encode Sans
+StyleName:Regular
+MenuName:Encode Sans
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Encode Sans Regular
+WritingScript:Roman
+OutlineFileName:\EncodeSans-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:161972
+FileModTime:1486515600
+NameArray:0,Win,1,Encode Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:218640
+FileModTime:1486828764
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
